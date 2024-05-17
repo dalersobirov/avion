@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Playfair_Display;
+    src: url(/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url(/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+a{
+    color: black;
+}
+
+.fullname{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.password{
+    margin-top: 15px;
+}
+.button-contact{
+    margin-top: 32px;
+}
+.contact-p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.contact-h1{
+    font-size: 24px;
+}
